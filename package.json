@@ -1,5 +1,4 @@
 {
-  "name": "netlify-cms",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "start": "run-s clean bootstrap build:esm develop",
