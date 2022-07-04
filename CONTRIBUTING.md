@@ -5,6 +5,13 @@ please read the [code of conduct](CODE_OF_CONDUCT.md).
 
 For details on contributing to documentation, see [Website Directory Readme](https://github.com/netlify/netlify-cms/blob/master/website/README.md).
 
+
+## CI builds due to ERR_OSSL_EVP_UNSUPPORTED - July 4th, 2022
+
+Issue: https://github.com/netlify/netlify-cms/issues/6502
+
+Supply NODE_OPTIONS=--openssl-legacy-provider
+
 ## Setup
 
 > Install [Node.js (LTS)](https://nodejs.org/) and [yarn](https://yarnpkg.com/en/docs/install) on your system.
@@ -12,6 +19,7 @@ For details on contributing to documentation, see [Website Directory Readme](htt
 ### Install dependencies
 
 > Only required on the first run, subsequent runs can use `yarn start` to both bootstrap and run the development server.
+
 
 ```sh
 git clone https://github.com/netlify/netlify-cms
